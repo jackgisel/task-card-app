@@ -1,1 +1,2 @@
-# angular2skeleton
+# Task Card App
+### Devslopes App Idea
