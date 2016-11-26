@@ -14,6 +14,7 @@ var AppComponent = (function () {
     function AppComponent() {
         this.tasks = [];
         this.currentTask = new task_1.Task(null, false);
+        this.hide = true;
     }
     AppComponent.prototype.addTask = function () {
         var task = new task_1.Task(this.currentTask.content, this.currentTask.completed);

@@ -12,6 +12,7 @@ import { Task } from './model/task';
 export class AppComponent { 
     private tasks: Task[] = [ ];
     private currentTask = new Task(null, false);
+    private hide = true;
 
     addTask() {
         let task = new Task(this.currentTask.content, this.currentTask.completed);
