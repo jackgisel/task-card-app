@@ -1,11 +1,17 @@
 .card {
     border-radius: 0;
+    cursor: pointer;
 }
 
 .card,
 .card-footer {
     background-color: #ffffA5;
     border: none; 
+}
+.card.completed,
+.card.completed .card-footer {
+    background: #eee;
+    color: #ccc;
 }
 
 .card-footer {
@@ -15,4 +21,7 @@
 i {
     color: #CC0000;
     padding-right: .5rem;
+}
+.fa-check {
+    color: green;
 }
